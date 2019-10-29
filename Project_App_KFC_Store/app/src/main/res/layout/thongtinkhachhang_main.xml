@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/MauDoKFC"
+    tools:context=".Activity.ThongTinKhachHangActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/boder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#CC0000"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="THÔNG TIN KHÁCH HÀNG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="@color/MauDoKFC"
+                android:layout_margin="5dp"
+                android:id="@+id/txt_tenkhachhang_thongtinkhachhang"
+                android:inputType="text"
+                android:hint="Nhập Tên Khách Hàng"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="@color/MauDoKFC"
+                android:layout_margin="5dp"
+                android:hint="Nhập Số Điện Thoại"
+                android:id="@+id/txt_sodienthoaikhachhang_thongtinkhachhang"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="@color/MauDoKFC"
+                android:layout_margin="5dp"
+                android:id="@+id/txt_email_thongtinkhachhang"
+                android:inputType="textEmailAddress"
+                android:hint="Nhập Email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:textColor="@color/colorWhile"
+                android:background="#CC0000"
+                android:id="@+id/btn_xacnhan_thongtinkhachhang"
+                android:layout_marginRight="70dp"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:text="Xác Nhận"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/colorWhile"
+                android:background="#CC0000"
+                android:id="@+id/btn_trove_thongtinkhachhang"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:text="Trở Về"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />pự̀̀̀tg̀
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

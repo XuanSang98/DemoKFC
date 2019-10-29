@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LienHeActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_lienhe"
+        app:titleTextColor="#ffffff"
+        app:title="LIÊN HỆ"
+        android:background="@color/MauDoKFC"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:text="CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Số 292 Bà Triệu,P.Lê Đại Hành,Q.Hai Bà Trưng,Hà Nội"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="Điện thoại: (08)38489828"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="Email: lienhe@kfcvietnam.com.vn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

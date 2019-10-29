@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/MauDoKFC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DangNhapActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="25dp"
+        >
+        <TextView
+            android:fontFamily="@font/font1"
+            android:textSize="32dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/frmlogin_txtdangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/custom_textview"
+            android:id="@+id/relativelogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:background="@drawable/custom_textview"
+                android:layout_below="@id/frmlogin_txtdangnhap"
+                android:layout_marginTop="20dp"
+                android:id="@+id/txt_email_dangnhap"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:textColor="@color/MauDoKFC"
+                android:inputType="textPersonName"
+                android:hint="Email or Phonenumber"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:background="@drawable/custom_textview"
+                android:layout_below="@id/txt_email_dangnhap"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/MauDoKFC"
+                android:id="@+id/txt_matkhau_dangnhap"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password" />
+
+            <CheckBox
+                android:layout_below="@id/txt_matkhau_dangnhap"
+                android:id="@+id/frmlogin_cblogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/MauDoKFC"
+                android:text="save password" />
+
+            <Button
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/frmlogin_cblogin"
+                android:id="@+id/btn_dangnhap_dangnhap"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#CC0000"
+                android:text="Login"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/custom_textview"
+            android:layout_marginTop="20dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/MauDoKFC"
+                android:text="Đăng Nhập Bằng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="#ffffff"
+                android:text="facebook"
+                android:layout_marginTop="10dp"
+                android:background="#335a9e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="#ffffff"
+                android:text="Google"
+                android:layout_marginTop="20dp"
+                android:background="#f03b2c"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txtforgotpassword"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:text="Forgot Password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txt_dangki_dangnhap"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:text="Account Registration"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

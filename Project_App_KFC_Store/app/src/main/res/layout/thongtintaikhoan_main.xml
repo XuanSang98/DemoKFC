@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ThongTinTaiKhoanActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/MauXanhLa"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorWhile"
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/txt_mail_thongtintaikhoan"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <TextView
+            android:textColor="@color/colorWhile"
+            android:layout_marginTop="10dp"
+            android:text="Mật Khẩu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/txt_matkhau_thongtintaikhoan"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPassword"/>
+        <TextView
+            android:textColor="@color/colorWhile"
+            android:layout_marginTop="10dp"
+            android:text="Nhập Lại Mật Khẩu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/txt_nhaplaimatkhau_thongtintaikhoan"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPassword"/>
+        <TextView
+            android:textColor="@color/colorWhile"
+            android:layout_marginTop="10dp"
+            android:text="Tên Người Dùng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/txt_tennguoidung_thongtintaikhoan"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <TextView
+            android:textColor="@color/colorWhile"
+            android:layout_marginTop="10dp"
+            android:text="Số Điện Thoại"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/txt_sodienthoai_thongtintaikhoan"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <TextView
+            android:textColor="@color/colorWhile"
+            android:layout_marginTop="10dp"
+            android:text="Dịa Chỉ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/txt_diachi_thongtintaikhoan"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <Button
+            android:id="@+id/btn_capnhat_thongtaikhoan"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorWhile"
+            android:background="#006600"
+            android:layout_gravity="center"
+            android:text="Cập Nhật"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

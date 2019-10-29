@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Thực Đơn"
+        android:id="@+id/menu_bottomnavigation_thucdon"
+        android:icon="@drawable/menu_thucdon"/>
+    <item android:title="Nhà Hàng"
+        android:id="@+id/menu_bottomnavigation_nhahang"
+        android:icon="@drawable/shop"/>
+    <!--<item android:title="Cộng Đồng"
+        android:id="@+id/menu_bottomnavigation_congdong"
+        android:icon="@drawable/menu_congdong"/>-->
+    <item android:title="Cá Nhân"
+        android:id="@+id/menu_bottomnavigation_canhan"
+        android:icon="@drawable/menu_canhan"/>
+</menu>

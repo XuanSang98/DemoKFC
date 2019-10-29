@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp">
+    <ImageView
+        android:id="@+id/img_thucdonchitiet_entity"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+        android:textColor="#111111"
+        android:id="@+id/txt_tenthucdonchitiet_entity"
+        android:layout_marginLeft="5dp"
+        android:text="dasdsad"
+            android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/MauDoKFC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá : "/>
+        <TextView
+            android:textColor="@color/MauDoKFC"
+            android:id="@+id/txt_giatienthucdonchitiet_entity"
+            android:text="dsdsa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+            <TextView
+                android:textColor="@color/MauDoKFC"
+                android:layout_marginLeft="10dp"
+                android:text="VND"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/ne"
+    android:layout_width="20dp"
+    android:layout_height="20dp" />
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Activity.GioHangActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_giohang_main"
+        app:titleTextColor="#ffffff"
+        app:title="Giỏ Hàng"
+        android:background="@color/MauDoKFC"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:background="#9a0721"
+        android:layout_weight="8.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:background="@drawable/giohangtrong"
+                android:layout_gravity="center"
+                android:id="@+id/txt_giohang_thongbao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ListView
+                android:id="@+id/list_giohang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#9a0721"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                android:text="Tổng Đơn Hàng"
+                android:textColor="@color/colorWhile"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:gravity="right|center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txttongtien"
+                    android:text="Giá Trị"
+                    android:textColor="@color/colorWhile"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="3dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_marginRight="1.5dp"
+            android:id="@+id/btn_thanhtoangiohang"
+            android:background="@color/MauDoKFC"
+            android:textColor="@color/colorWhile"
+            android:text="Thanh Toán Giỏ Hàng"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_marginLeft="1.5dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_tieptucmuahang"
+            android:background="@color/MauDoKFC"
+            android:textColor="@color/colorWhile"
+            android:text="Tiếp Tục Mua Hàng"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/MauDoKFC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  android:padding="20dp"
+    tools:context=".Activity.DangKiTaiKhoanActivity">
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boder"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font1"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/MauDoKFC"
+            android:text="ĐĂNG KÍ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/txt_mail_dangkitaikhoan"
+            android:textColor="@color/MauDoKFC"
+            android:layout_marginTop="10dp"
+            android:hint="Nhập Gmail Của Bạn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/txt_matkhau_dangkitaikhoan"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/MauDoKFC"
+            android:hint="Nhập Mật Khẩu"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/txt_nhaplaimatkhau_dangkitaikhoan"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/MauDoKFC"
+            android:hint="Nhập Lại Mật Khẩu"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/txt_tennguoidung_dangkitaikhoan"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/MauDoKFC"
+            android:hint="Nhập Tên Người Dùng"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/txt_sodienthoai_dangkitaikhoan"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/MauDoKFC"
+            android:hint="Nhập Số Điện Thoại"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/txt_diachi_dangkitaikhoan"
+            android:textColor="@color/MauDoKFC"
+            android:layout_marginTop="20dp"
+            android:hint="Nhập Địa Chỉ"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/btn_dangki_dangkitaikhoan"
+            android:textColor="@color/colorWhile"
+            android:background="#CC0000"
+            android:layout_marginTop="20dp"
+            android:text="Đăng Kí"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</RelativeLayout>

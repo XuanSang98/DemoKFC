@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/img_tengiohang_entity"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/txt_tenmonhang_giohang_entity"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:text="Tên Món Hàng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_giamonhang_giohang_entity"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Giá"
+                android:textColor="@color/MauDoKFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:background="@color/MauDoKFC"
+                    android:focusable="false"
+                    android:id="@+id/btn_minus"
+                    android:text="-"
+                    android:textColor="@color/colorWhile"
+                    android:textSize="15sp"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp" />
+                <Button
+                    android:background="@null"
+                    android:focusable="false"
+                    android:id="@+id/btn_valus"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhile"
+                    android:text="1"
+                    android:textSize="35dp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:textColor="@color/colorWhile"
+                    android:background="@color/MauDoKFC"
+                    android:focusable="false"
+                    android:id="@+id/btn_plus"
+                    android:text="+"
+                    android:textSize="15sp"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

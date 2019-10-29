@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    >
+    <ImageView
+        android:background="@color/MauDoKFC"
+        android:layout_gravity="center"
+        android:id="@+id/img_custom_recyclerview_entity"
+        android:layout_width="250dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/colorWhile"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt_custom_recyclerview_entity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

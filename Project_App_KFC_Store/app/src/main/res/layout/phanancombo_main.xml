@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PhanAnComBoActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_phanancombo_main"
+        app:titleTextColor="#ffffff"
+        app:title="Phần Ăn Combo"
+        android:background="@color/MauDoKFC"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/grid_phanancombo_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"></ListView>
+</LinearLayout>

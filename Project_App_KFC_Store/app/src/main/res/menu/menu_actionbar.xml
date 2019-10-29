@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_actionbar_tongdaivien"
+        app:showAsAction="always"
+        android:title="Tổng Đài Viên"
+            android:icon="@drawable/tongdaivien" />
+    <item android:id="@+id/menu_actionbar_giohang"
+        app:showAsAction="always"
+        android:title="Giỏ Hàng"
+        android:icon="@drawable/giohang"/>
+</menu>

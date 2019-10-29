@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_ngonngu"
+        android:title="Ngôn ngữ"
+        />
+    <item
+        android:id="@+id/nav_chontinhthanhpho"
+        android:title="Chọn tỉnh/Thành phố" />
+    <item
+        android:id="@+id/nav_quetmacode"
+        android:title="Quét mã QR code" />
+    <item
+        android:id="@+id/nav_cauhinhungdung"
+        android:title="Cấu hình ứng dụng" />
+    <item
+        android:id="@+id/nav_taisaochonkfc"
+        android:title="Tại sao chọn KFC?" />
+    <item
+        android:id="@+id/nav_chinhsachvaquydinhchung"
+        android:title="Chính sách và quy định chung" />
+    <item
+        android:id="@+id/nav_chinhsachhoatdong"
+        android:title="Chính sách hoạt động" />
+    <item
+        android:id="@+id/nav_chinhsachbaomatthongtin"
+        android:title="Chính sách bảo mật thông tin" />
+    <item
+        android:id="@+id/lienhe"
+        android:title="Liên hệ" />
+    <item
+        android:id="@+id/nav_thongtinveungdung"
+        android:title="Thông tin về ứng dụng" />
+    <item
+        android:id="@+id/nav_dangxuat"
+        android:title="Đăng xuất" />
+</menu>

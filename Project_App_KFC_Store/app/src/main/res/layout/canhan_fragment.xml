@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.CaNhanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:background="#CD0000"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/img_canhan_fragment"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/sang"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txt_canhan_fragment"
+                android:layout_marginTop="25dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhile"
+                android:text="Sang Heungmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:textColor="@color/colorWhile"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KFC Store Member"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="THÔNG TIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#444444"
+            android:background="#BBBBBB"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Lưu ý: Tên sẽ được sử dụng để hiển thị trên hóa đơn khi đặt hàng tại của hàng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/list_canhan_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ChiTietSanPhamActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_chitietsanpham_main"
+        app:titleTextColor="#ffffff"
+        app:title="Chi Tiết Sản Phẩm"
+        android:background="@color/MauDoKFC"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:id="@+id/layout_image"
+        android:layout_below="@+id/tb_chitietsanpham_main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/img_anhsanpham_chitietsanpham"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp" />
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/black_gradient" />
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_below="@id/layout_image"
+            android:layout_gravity="center"
+            android:background="#f0f0f0"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txt_tensanpham_chitietsanpham"
+                android:text="Tên Sản Phẩm"
+                android:textColor="#111111"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_giasanpham_chitietsanpham"
+                android:textColor="@color/MauDoKFC"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:text="Giá Sản Phẩm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_margin="10dp"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="Số Lượng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/spinner"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp">
+
+                    <Spinner
+                        android:id="@+id/spinner_chitietsanpham"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown"></Spinner>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <Button
+        android:id="@+id/btn_themvaogiohang"
+        android:textColor="@color/colorWhile"
+        android:background="@color/MauDoKFC"
+        android:layout_alignParentBottom="true"
+        android:text="Thêm Vào Giỏ Hàng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
